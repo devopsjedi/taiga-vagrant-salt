@@ -1,1 +1,0 @@
-{"rsync":{"/srv/salt":{"guestpath":"/srv/salt","hostpath":"/home/mike/taiga-test/salt/roots","disabled":false,"owner":"vagrant","group":"vagrant"},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/mike/taiga-test","disabled":false,"owner":"vagrant","group":"vagrant"}}}
