@@ -39,6 +39,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     salt.minion_config = "salt/minion"
     salt.run_highstate = true
     salt.install_type = "stable"
+    salt.install_args = "-P"
     salt.bootstrap_options = "-F -c /tmp/ -P"
   end
  
