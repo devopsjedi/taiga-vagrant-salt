@@ -11,7 +11,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   unless(provider_is_libvirt)
      config.vm.box = "ubuntu/trusty64"
      config.vm.provider "virtualbox" do |vb|
-       vb.gui = true
        vb.customize ["modifyvm", :id, "--memory", "2048"]
      end
   end
